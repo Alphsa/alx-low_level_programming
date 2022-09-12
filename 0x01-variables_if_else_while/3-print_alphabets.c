@@ -10,7 +10,7 @@ for (ch = 'A'; ch <= 'Z'; ch++)
 {
 putchar(ch);
 }
-for (sh = 'A'; sh <= 'Z'; ch++)
+for (sh = 'A'; sh <= 'Z'; sh++)
 {
 putchar(sh);
 }
