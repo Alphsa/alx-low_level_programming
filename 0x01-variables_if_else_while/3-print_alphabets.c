@@ -14,5 +14,6 @@ for (sh = 'A'; sh <= 'Z'; sh++)
 {
 putchar(sh);
 }
+putchar('\n'); 
 return (0);
 }
