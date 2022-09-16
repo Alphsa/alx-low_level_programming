@@ -1,26 +1,8 @@
-#include <stdlib.h>
-#include <time.h>
+#ifndef MAIN_H_
+#define MAIN_H_
 #include <stdio.h>
-/**
-* main - Determines if a number is positive, negative or zero.
-* Return: Always 0 (Success)
-*/
-int positive_or_negative(void)
-{
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-if (n > 0)
-{
-printf("%d is positive\n", n);
-}
-else if (n == 0)
-{
-printf("%d is zero\n", n);
-}
-else
-{
-printf("%d is negative\n", n);
-}
-return (0);
-}
+void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
+int convert_day(int, int);
+void print_remaining_days(int, int, int);
+#endif
