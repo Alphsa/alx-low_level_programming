@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <conio.h>
 /**
 * rev_string - Reverses a string
 * @s: The string to be modified  Return: void
