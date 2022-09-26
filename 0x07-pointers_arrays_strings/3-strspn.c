@@ -12,8 +12,10 @@ unsigned int i;
 while (*(s + len) != 0)
 {
 int flag = 0;
+
 for (i = 0; *(pre + i) != 0; i++)
-{	  
+{
+
 if (*(s + len) == *(pre + i))
 {
 len++;
