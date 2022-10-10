@@ -1,4 +1,3 @@
-#ifndef object_like
-#define object_like
+#ifndef SIZE
 #define SIZE 1024
 #endif
